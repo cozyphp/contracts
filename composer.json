@@ -1,0 +1,29 @@
+{
+    "name": "cozy/contracts",
+    "description": "Collection of handy Contracts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nestor Picado",
+            "email": "info@nestorpicado.com"
+        }
+    ],
+    "keywords": [
+        "contracts",
+        "interfaces"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cozy\\Contracts\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
