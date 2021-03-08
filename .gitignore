@@ -2,3 +2,5 @@ composer.phar
 /vendor
 /.idea
 /temp
+composer.lock
+.php_cs.cache
