@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Cozy.Contracts
+ *
+ * (c) Nestor Picado <info@nestorpicado.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Cozy\Contracts;
 
 /**
@@ -12,9 +21,9 @@ interface Comparable
      * Compares the current instance with another object of the same type and returns an integer that indicates whether
      * the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
      *
-     * @param static|mixed $other
-     * @return int A value that indicates the relative order of the objects being compared. -1 means precedes, 0 occurs,
-     * and 1 follows.
+     * @param  static|mixed $other
+     * @return int          a value that indicates the relative order of the objects being compared. -1 means precedes,
+     *                            0 occurs, and 1 follows.
      */
     public function compareTo($other): int;
 }
