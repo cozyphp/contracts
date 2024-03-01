@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Cozy.Contracts
+ * Cozy Contracts
  *
  * (c) Nestor Picado <info@nestorpicado.com>
  *
@@ -23,7 +23,7 @@ interface Comparable
      *
      * @param  static|mixed $other
      * @return int          a value that indicates the relative order of the objects being compared. -1 means precedes,
-     *                            0 occurs, and 1 follows.
+     *                      0 occurs, and 1 follows.
      */
     public function compareTo($other): int;
 }

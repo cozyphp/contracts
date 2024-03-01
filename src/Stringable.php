@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Cozy.Contracts
+ * Cozy Contracts
  *
  * (c) Nestor Picado <info@nestorpicado.com>
  *
