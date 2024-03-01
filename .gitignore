@@ -4,3 +4,4 @@ composer.phar
 /temp
 composer.lock
 .php_cs.cache
+.php-cs-fixer.cache
