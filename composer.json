@@ -1,43 +1,44 @@
 {
-    "name": "cozy/contracts",
-    "description": "Collection of handy Contracts",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nestor Picado",
-            "email": "info@nestorpicado.com"
-        }
-    ],
-    "keywords": [
-        "contracts",
-        "interfaces"
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^7.4|^8.0",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "phpstan/phpstan": "^0.12",
-        "phpstan/phpstan-strict-rules": "^0.12"
-    },
-    "autoload": {
-        "psr-4": {
-            "Cozy\\Contracts\\": "src"
-        }
-    },
-    "scripts": {
-        "phpcs": "vendor/bin/php-cs-fixer fix --dry-run --diff -vvv --allow-risky=yes --ansi",
-        "phpcs:fix": "vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes --ansi",
-        "phpstan": "vendor/bin/phpstan analyse -l max -c phpstan.neon src --ansi --memory-limit 192M",
-        "test": [
-            "@phpstan",
-            "@phpcs"
-        ]
-    },
-    "config": {
-        "sort-packages": true
+  "name": "cozy/contracts",
+  "description": "Collection of handy Contracts",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Nestor Picado",
+      "email": "info@nestorpicado.com"
     }
+  ],
+  "keywords": [
+    "contracts",
+    "interfaces"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4|^8",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^v3.51.0",
+    "phpstan/phpstan": "^1.10.59",
+    "phpstan/phpstan-strict-rules": "^1.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cozy\\Contracts\\": "src"
+    }
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/php-cs-fixer fix --dry-run --diff -vvv --allow-risky=yes --ansi",
+    "phpcs:fix": "vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes --ansi",
+    "phpstan": "vendor/bin/phpstan analyse -l max -c phpstan.neon src --ansi --memory-limit 192M",
+    "test": [
+      "@phpstan",
+      "@phpcs"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
 }

@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-    Cozy.Contracts
+    Cozy Contracts
 
     (c) Nestor Picado <info@nestorpicado.com>
 
@@ -10,7 +10,7 @@ $header = <<<EOF
     EOF;
 
 $finder = PhpCsFixer\Finder::create()
-    ->in(__DIR__.'/src');
+    ->in(__DIR__ . '/src');
 
 $config = new PhpCsFixer\Config();
 return $config->setRules(
@@ -20,7 +20,7 @@ return $config->setRules(
         'array_syntax' => ['syntax' => 'short'],
         'concat_space' => ['spacing' => 'none'],
         'header_comment' => [
-            'commentType' => 'PHPDoc',
+            'comment_type' => 'PHPDoc',
             'header' => $header,
             'location' => 'after_open',
             'separate' => 'both',
