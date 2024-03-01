@@ -30,7 +30,7 @@
     }
   },
   "scripts": {
-    "phpcs": "vendor/bin/php-cs-fixer fix --dry-run --diff -vvv --allow-risky=yes --ansi",
+    "phpcs": "vendor/bin/php-cs-fixer check --diff -vvv --allow-risky=yes --ansi",
     "phpcs:fix": "vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes --ansi",
     "phpstan": "vendor/bin/phpstan analyse -l max -c phpstan.neon src --ansi --memory-limit 192M",
     "test": [
