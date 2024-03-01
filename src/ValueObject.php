@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Cozy Contracts
+ *
+ * (c) Nestor Picado <info@nestorpicado.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Cozy\Contracts;
 
 /**
@@ -8,7 +17,9 @@ namespace Cozy\Contracts;
 interface ValueObject
 {
     /**
-     * Gets the primitive value of the object.
+     * Gets the internal/primitive value of the object.
+     *
+     * @return mixed
      */
     public function get();
 }
