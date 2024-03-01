@@ -27,7 +27,8 @@ $ composer require cozy/contracts
 Contributing
 -------
 
-Contributions are welcome and will be fully credited. Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
+Contributions are welcome and will be fully credited. Please see 
+[CONTRIBUTING](.github/CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 Security
 -------
@@ -38,7 +39,7 @@ Credits
 -------
 
 - [Nestor Picado](https://github.com/npicado)
-- [All Contributors](https://github.com/thephpleague/period/graphs/contributors)
+- [All Contributors](https://github.com/cozyphp/contracts/graphs/contributors)
 
 License
 -------
