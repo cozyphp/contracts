@@ -27,6 +27,5 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress --no-suggest ${{ matrix.composer-flags }}
 
-      - run: composer phpstan
-
-      - run: composer phpcs
+      - name: Analyse and test code
+        run: composer run-script test
