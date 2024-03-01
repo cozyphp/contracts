@@ -34,8 +34,8 @@
     "phpcs:fix": "vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes --ansi",
     "phpstan": "vendor/bin/phpstan analyse -l max -c phpstan.neon src --ansi --memory-limit 192M",
     "test": [
-      "@phpstan",
-      "@phpcs"
+      "vendor/bin/phpstan analyse -l 4 -c phpstan.neon src --ansi --memory-limit 192M",
+      "vendor/bin/php-cs-fixer check -vv --allow-risky=no --show-progress=none"
     ]
   },
   "config": {
