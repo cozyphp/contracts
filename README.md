@@ -13,7 +13,7 @@ Collection of handy PHP Contracts / Interfaces.
 System Requirements
 -------
 
-You need **PHP >= 7.4.0** but the latest stable version of PHP is recommended.
+You need **PHP >= 7.4.0**, but the latest stable version of PHP is recommended.
 
 Installation
 -------
